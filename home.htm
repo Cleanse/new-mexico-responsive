@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>
+    NewMexico.gov - Welcome to the Land of Enchantment
+  </title>
+
   <!-- Required meta tags -->
   <meta charset="utf-8"></meta>
 
@@ -26,6 +30,11 @@
   ></link>
 
   <link
+    href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700i|Roboto:400,700,700i"
+    rel="stylesheet"
+  ></link>
+
+  <link
     rel="stylesheet"
     href="/assets/css/new-mexico.css"
   ></link>
@@ -33,7 +42,244 @@
 
 <body>
   <header>
-    <div class="logo">NM</div>
+    <div class="container-fluid d-flex flex-lg-row flex-column justify-content-md-between">
+      <div class="logo">
+        <a href="/">
+          <img src="/assets/images/logo.png">
+        </a>
+      </div>
+
+      <nav>
+        <ul class="top-nav d-flex">
+          <li>
+            <a href="/default.aspx">Home</a>
+          </li>
+
+          <li>
+            <a href="/government/A_to_Z_State_Agency_Listings.aspx">A to Z Directory</a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              onclick="RTS.show('#onlineServicesLinks');"
+              style="cursor: pointer;"
+            >Online Services</a>
+          </li>
+
+          <li>
+            <a href="/accessibility.aspx">Accessibility</a>
+          </li>
+
+          <li>
+            <a
+              href="#"
+              onclick="RTS.show('#governorsCornerLinks');"
+              style="cursor: pointer;"
+            >Governor's Corner</a>
+          </li>
+        </ul>
+
+        <div class="social-media-top d-flex flex-lg-row flex-column justify-content-end">
+          <div class="share-facebook">
+            <iframe
+              src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.newmexico.gov%2F&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21"
+              scrolling="no"
+              frameborder="0"
+              style="border:none; overflow:hidden; width:100px; height:21px;"
+              allowtransparency="true"
+            ></iframe>
+          </div>
+
+          <div class="share-twitter">
+            <iframe
+              id="twitter-widget-0"
+              scrolling="no"
+              frameborder="0"
+              allowtransparency="true"
+              class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
+              title="Twitter Tweet Button"
+              src="http://platform.twitter.com/widgets/tweet_button.c2fee4cea2b1b8626df3db7d9a85b72d.en.html#dnt=true&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer=http%3A%2F%2Fwww.newmexico.gov%2Fdefault.aspx&amp;size=m&amp;text=Check%20out%20NewMexico.Gov!%20The%20Land%20of%20Enchantment&amp;time=1502923292597&amp;type=share&amp;url=http%3A%2F%2Fwww.newmexico.gov%2Fdefault.aspx"
+              style="position: static; visibility: visible; width: 61px; height: 20px;"
+            ></iframe>
+
+            <script
+              type="text/javascript"
+              src="http://platform.twitter.com/widgets.js"
+            ></script>
+          </div>
+        </div>
+
+        <ul class="primary-nav nav justify-content-end">
+          <li class="nav-item dropdown">
+            <a
+              href="/citizens/"
+              class="nav-link dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >Citizen</a>
+
+            <div class="dropdown-menu container-fluid">
+              <div class="primary-nav-main-col">
+                <div class="flCatContainer">
+                  <div class="flCatTitle">Education</div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="/citizens/educational_opportunities.aspx"
+                      target="_self"
+                    >Educational Opportunities</a>
+                  </div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="/citizens/Higher_Education.aspx"
+                      target="_self"
+                    >Higher Education</a>
+                  </div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="/citizens/K-12.aspx"
+                      target="_self"
+                    >K-12</a>
+                  </div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="/citizens/Libraries.aspx"
+                      target="_self"
+                    >Libraries</a>
+                  </div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="/citizens/Students_and_Families.aspx"
+                      target="_self"
+                    >Students and Families</a>
+                  </div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="/citizens/Teachers.aspx"
+                      target="_self"
+                    >Teachers</a>
+                  </div>
+                </div>
+
+                <div class="flCatContainer">
+                  <div class="flCatTitle">Safety and Security</div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="/citizens/Living_Safety.aspx"
+                      target="_self"
+                    >Living Safely</a>
+                  </div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="http://www.nmdhsem.org/Report_Suspicious_Activity.aspx"
+                      target="_self"
+                    >Report Suspicious Activity</a>
+                  </div>
+                </div>
+
+                <div class="fileLink">
+                  <div class="flTitle">
+                    <a
+                      href="/citizens/Workplace_Safety.aspx"
+                      target="_self"
+                    >Workplace Safety</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="primary-nav-popular-col">
+                <div class="flCatContainer">
+                  <div class="flCatTitle">Popular Online Services</div>
+                </div>
+
+                <div class="flTitle">
+                  <a
+                    href="https://onlinesales.wildlife.state.nm.us/"
+                    target="_blank"
+                  >
+                    Buy a Hunting or Fishing or License Online
+                  </a>
+                </div>
+
+                <div class="flTitle">
+                  <a
+                    href="http://www.cyfd.org/"
+                    target="_blank"
+                  >
+                    Children, Youth and Families Department, New Mexico
+                  </a>
+                </div>
+
+                <div class="flTitle">
+                  <a
+                    href="http://governor.state.nm.us/Contact_the_Governor.aspx"
+                    target="_blank"
+                  >
+                    Contact Governor Susana Martinez
+                  </a>
+                </div>
+
+                <div class="flTitle">
+                  <a
+                    href="http://www.jobs.state.nm.us/"
+                    target="_blank"
+                  >Job Search</a>
+                </div>
+
+                <div class="flTitle">
+                  <a
+                    href="http://www.mvd.newmexico.gov/Online-Services/Pages/Home.aspx"
+                    target="_blank"
+                  >MVD Online Services</a>
+                </div>
+
+                <div class="flTitle">
+                  <a
+                    href="http://nmroads.com"
+                    target="_blank"
+                  >New Mexico Road Conditions</a>
+                </div>
+
+                <div class="flTitle">
+                  <a
+                    href="http://www.tax.newmexico.gov/Online-Services/Pages/Personal-Income-Tax-E-filing.aspx"
+                    target="_blank"
+                  >
+                    Taxation and Revenue - File online, State of New Mexico
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <footer class="container-fluid">
@@ -91,140 +337,125 @@
         </div>
 
         <div class="footer-info-box fib-even">
+          <h3 class="footerTitles">Legislative Branch:</h3>
 
-            <h3 class="footerTitles">Legislative Branch:</h3>
+          <a
+            href="http://www.nmlegis.gov/lcs/"
+            target="_blank"
+          >New Mexico Legislature</a>
 
-            <a
-              href="http://www.nmlegis.gov/lcs/"
-              target="_blank"
-            >New Mexico Legislature</a>
+          <br>
 
-            <br>
+          <a
+            href="http://www.nmlegis.gov/lcs/legislatorsearch.aspx"
+            target="_blank"
+          >State Senate</a>
 
-            <a
-              href="http://www.nmlegis.gov/lcs/legislatorsearch.aspx"
-              target="_blank"
-            >State Senate</a>
+          <br>
 
-            <br>
+          <a
+            href="http://www.nmlegis.gov/lcs/legislatorsearch.aspx"
+            target="_blank"
+          >
+            State House of Representatives
+          </a>
 
-            <a
-              href="http://www.nmlegis.gov/lcs/legislatorsearch.aspx"
-              target="_blank"
-            >
-              State House of Representatives
-            </a>
+          <br>
 
-            <br>
-
-            <a
-              href="http://www.nmlegis.gov/lcs/BillFinder.aspx"
-              target="_blank"
-            >Bill Finder</a>
+          <a
+            href="http://www.nmlegis.gov/lcs/BillFinder.aspx"
+            target="_blank"
+          >Bill Finder</a>
         </div>
 
         <div class="footer-info-box">
-            <h3 class="footerTitles">Judicial Branch:</h3>
+          <h3 class="footerTitles">Judicial Branch:</h3>
 
-            <a
-              href="http://www.nmcourts.gov/index.php"
-              target="_blank"
-            >New Mexico Courts</a>
+          <a
+            href="http://www.nmcourts.gov/index.php"
+            target="_blank"
+          >New Mexico Courts</a>
 
-            <br>
+          <br>
 
-            <a
-              href="http://www.nmcourts.gov/newface/about/index.php"
-              target="_blank"
-            >About New Mexico Courts</a>
+          <a
+            href="http://www.nmcourts.gov/newface/about/index.php"
+            target="_blank"
+          >About New Mexico Courts</a>
 
-            <br>
+          <br>
 
-            <a
-              href="http://www.metrocourt.state.nm.us/xnet/"
-              target="_blank"
-            >Bernalillo Metro Court</a>
+          <a
+            href="http://www.metrocourt.state.nm.us/xnet/"
+            target="_blank"
+          >Bernalillo Metro Court</a>
 
-            <br>
+          <br>
 
-            <a
-              href="http://www.nmcourts.gov/othercourts.php"
-              target="_blank"
-            >New Mexico Court Resources</a>
+          <a
+            href="http://www.nmcourts.gov/othercourts.php"
+            target="_blank"
+          >New Mexico Court Resources</a>
 
-            <br>
+          <br>
 
-            <a
-              href="http://www.da.state.nm.us"
-              target="_blank"
-            >District Attorney Association</a>
+          <a
+            href="http://www.da.state.nm.us"
+            target="_blank"
+          >District Attorney Association</a>
         </div>
 
         <div class="footer-info-box fib-even">
-            <h3 class="footerTitles">Alerts:</h3>
+          <h3 class="footerTitles">Alerts:</h3>
 
-            <a
-              href="/Up-to-Date_Traffic_Alerts.aspx"
-            >Up-to-Date Traffic Alerts</a>
+          <a href="/Up-to-Date_Traffic_Alerts.aspx">Up-to-Date Traffic Alerts</a>
 
-            <br>
+          <br>
 
-            <a
-              href="/National_Terror_Alerts.aspx"
-            >National Terror Alerts</a>
+          <a href="/National_Terror_Alerts.aspx">National Terror Alerts</a>
 
-            <br>
+          <br>
 
-            <a
-              href="http://www.amberalert.com/en/alerts/state/?type=new-mexico"
-              target="_blank"
-            >New Mexico Amber Alerts</a>
+          <a
+            href="http://www.amberalert.com/en/alerts/state/?type=new-mexico"
+            target="_blank"
+          >New Mexico Amber Alerts</a>
 
-            <br>
+          <br>
 
-            <a
-              href="/New_Mexico_Wildfire_Alerts.aspx"
-              target="_blank"
-            >New Mexico Fire Info</a>
+          <a
+            href="/New_Mexico_Wildfire_Alerts.aspx"
+            target="_blank"
+          >New Mexico Fire Info</a>
 
-            <br>
+          <br>
 
-            <a
-              href="http://www.nmdhsem.org/Report_Suspicious_Activity.aspx"
-              target="_blank"
-            >Suspicious Activity Report</a>
+          <a
+            href="http://www.nmdhsem.org/Report_Suspicious_Activity.aspx"
+            target="_blank"
+          >Suspicious Activity Report</a>
         </div>
 
         <div class="footer-info-box">
-            <h3 class="footerTitles">Helpful Tools:</h3>
+          <h3 class="footerTitles">Helpful Tools:</h3>
 
-            <a
-              href="/Contact_Us.aspx"
-            >Contact Us</a>
+          <a href="/Contact_Us.aspx">Contact Us</a>
 
-            <br>
+          <br>
 
-            <a
-              href="/Feedback.aspx"
-            >Feedback</a>
+          <a href="/Feedback.aspx">Feedback</a>
 
-            <br>
+          <br>
 
-            <a
-              href="/Site_Map.aspx"
-            >Site Map</a>
+          <a href="/Site_Map.aspx">Site Map</a>
 
-            <br>
+          <br>
 
-            <a
-              href="/Accessibility.aspx"
-            >Accessibility</a>
+          <a href="/Accessibility.aspx">Accessibility</a>
 
-            <br>
+          <br>
 
-            <a
-              href="/Site_Credits.aspx"
-            >Site Credits</a>
+          <a href="/Site_Credits.aspx">Site Credits</a>
         </div>
       </div>
 

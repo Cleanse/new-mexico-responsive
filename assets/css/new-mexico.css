@@ -6,11 +6,76 @@ body {
     font-size: 1rem;
 }
 
+h1, h2, h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+div, p {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
-    height: 400px;
-    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem .5rem;
+    background: url(../images/nm-gov-header-bg.jpg) no-repeat;
+    background-size: cover;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+}
+
+.top-nav, .primary-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.top-nav {
+    margin: -1rem 0 0;
+}
+
+.top-nav li a {
+    padding: 10px 10px;
+    font-size: 0.857rem;
+    font-weight: bold;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    -moz-border-bottom-left-radius: 10px 10px;
+    -moz-border-bottom-right-radius: 10px 10px;
+    display: block;
+    color: #25313e;
+    text-decoration: none;
+}
+
+.top-nav li a:hover {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background: url(../images/button.png) no-repeat bottom center #121a22;
+}
+
+.social-media-top {
+    margin: 1rem .8rem 0 0;
+}
+
+.primary-nav li {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    border: none;
+}
+
+.primary-nav li:hover {
+    background: #ffffff;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.primary-nav li > a {
+    font-size: 24px;
+    font-weight: 900;
+    display: block;
+    color: #25313e;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fff;
 }
 
 footer {
@@ -28,12 +93,10 @@ footer {
 }
 
 .footer-info-box h3 {
-    font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2",sans-serif;
-    font-weight: 600;
     font-size: 1.143em;
     color: #fff;
     text-transform: uppercase;
-    padding: 0 0 10px 0;
+    margin: 0 0 10px 0;
 }
 
 .footer-info-box a {
@@ -41,6 +104,10 @@ footer {
     font-weight: bold;
     font-style: italic;
     font-size: 0.857em;
+}
+
+.footer-info-box a:hover {
+    color: #fff;
 }
 
 .fib-even {
@@ -70,6 +137,12 @@ footer {
     font-size: .8rem;
     font-weight: bold;
     font-style: italic;
+}
+
+@media (max-width: 991px) {
+    .primary-nav li {
+        text-align: left;
+    }
 }
 
 @media (max-width: 500px) {
